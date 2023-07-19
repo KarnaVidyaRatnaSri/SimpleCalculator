@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Calculator</title>
+    <style>
+    body{
+        text-align:center;
+        background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTniDKqoMkcco5f0pyWFfNCyGPtUCYpsS7GA76u1F0okhu0c3rAOEn8qcL7l7Hpfn5T3G4&usqp=CAU");
+    }
+        
+        #center{
+            background-color:burlywood;
+            border-style:solid;
+            margin-top:150px;
+            margin-bottom:150px;
+            margin-left:400px;
+            margin-right:400px;
+            padding:20px
+        }
+    </style>
+</head>
+<center>
+<body>
+    <div id="center">
+    <h1><font face="arial" color="red"><marquee scrollamount="15">My Simple Calculator</marquee></font></h1>
+        <h3>Enter first number</h3>
+        <input type="number" id="value1">
+        <h3>Enter second numnber</h3>
+        <input type="number" id="value2">
+        <h2 id="head">Operations</h2>
+        <p id="ans1">Here you can see the answer</p>
+        <button id="button1" onclick="add();">ADD (+)</button>
+        <button id="button2" onclick="sub();">SUB (-)</button>
+        <button id="button3" onclick="mul();">MUL (*)</button>
+        <button id="button4" onclick="div();">DIV (/)</button>
+        <button id="button5" onclick="mod();">MOD (%)</button>
+        <script src="./script.js"></script>
+    </div>
+</body>
+</center>
+</html>
